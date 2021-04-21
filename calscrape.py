@@ -165,7 +165,7 @@ if __name__ == '__main__':
 
         ### Show Result ###
 
-        percentile = round((before / (n_student+1)) * 100, 2)  # plus one for free angle
+        percentile = round((before / (n_student+1)) * 100, 2)  # plus one for the free angle
 
         print('You are the {} percentile'.format(percentile))
         print('** {} people\' score is equal to yours'.format(equal))
